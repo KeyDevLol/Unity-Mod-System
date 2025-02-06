@@ -6,3 +6,5 @@ In it you need to enter the name of the folder that is located in the root of th
 The game must be built using Mono, it will not work with IL2CPP
 
 A compiler is not needed if you will only use the Lua mod system
+
+If there are 2 mods with the same names of dll files, an exception will be thrown.
