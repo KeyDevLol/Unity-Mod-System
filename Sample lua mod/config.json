@@ -1,0 +1,6 @@
+{
+    "name": "Sample Lua Mod",
+    "description": "Cool mod",
+    "iconPath": "icon.png",
+    "author": "You"
+}
