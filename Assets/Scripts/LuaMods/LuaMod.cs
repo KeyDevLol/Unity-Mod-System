@@ -5,7 +5,7 @@ using System;
 
 public class LuaMod
 {
-	public readonly string name; // Название мода (только для чтения).
+	public readonly string name; // Название мода.
 	public readonly string modDir; // Путь к директории мода.
 	public ModConfig config; // Конфигурация мода, загруженная из файла config.json.
 	private LuaScript[] scripts; // Массив Lua-скриптов, принадлежащих этому моду.
@@ -80,6 +80,7 @@ public class LuaMod
 		private void InitAPI()
 		{
 			// Здесь можно добавить свои методы и функции, которые будут доступны в Lua-скриптах.
+			// Читайте об это в документации MoonSharp: https://www.moonsharp.org/
 			// Пример добавления метода changeColor, который изменяет цвет объекта "Square" на magenta.
 			script.Globals["changeColor"] = (Action)delegate ()
 			{
