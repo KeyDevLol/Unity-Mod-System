@@ -1,0 +1,1 @@
+2 mod system options for Unity. The first method works by compiling the dll file from the mod scripts and then loading it into Unity. The second method works based on the MoonSharp asset, it loads all the Lua scripts of the mods and interprets them.
