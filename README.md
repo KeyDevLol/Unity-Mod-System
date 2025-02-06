@@ -1,1 +1,5 @@
-2 mod system options for Unity. The first method works by compiling the dll file from the mod scripts and then loading it into Unity. The second method works based on the MoonSharp asset, it loads all the Lua scripts of the mods and interprets them.
+Here are 2 ways to implement a mod system on Unity.
+The first method works based on compiling dll files
+from mod scripts and then loading them into Unity,
+and the second method works based on the MoonSharp
+library for working with Lua files.
